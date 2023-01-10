@@ -1,0 +1,10 @@
+- While not knowing anything about React, the changes made in the project make sense
+, changing the generateRow function makes since data needs to be calculated and
+return to the component lifecycle method, componentDidUpdate, since new data is being
+received at a fixed interval of time.
+
+- By looking at this graph traders can see how the ratio between 2 stocks changes
+over time. When ratio is above 1, it means that Stock A's price is greater than
+Stock B's, if less than 1 then Stock B price is greater than Stock A's.
+In the 1st case a trader could sell their Stock A or buy more Stock B, in the other case
+the trader could buy more Stock A or sell their Stock B.
